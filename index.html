@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Yulquen: Home</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="css/skeleton.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/wireframe.css">
+<link rel="shortcut icon" href="./favicon.ico">
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+	<div class="container">
+		<header class="sixteen columns">
+			<nav>
+				<ul>
+					<li class="six columns alpha">
+						<h1 class="remove-bottom">Yulquen</h1>
+						<h5>Version 0.1&alpha;</h5>
+					</li>
+					<li class="two columns"><a href="#">Nav 1</a></li>
+					<li class="two columns"><a href="#">Nav 2</a></li>
+					<li class="two columns"><a href="#">Nav 3</a></li>
+					<li class="two columns"><a href="#">Nav 4</a></li>
+					<li class="two columns omega"><a href="#">Nav 5</a></li>
+				</ul>
+			</nav>
+			<hr />
+		</header>
+		
+		<div class="eight columns">
+			<h3>About Yulquen</h3>
+			<p>Yulquen is a mobile-friendly, responsive framework for prototyping interactions.</p>
+			<p>Yulquen is a hack of <a href="http://www.getskeleton.com">Skeleton</a> so it can best fit wireframing and light prototyping. Edit <code>wireframe.css</code> with the CSS you want if you need to modify anything. Delete CSS in the other two files if you need to override anything. And link to pages as you would any other site.</p>
+			<p>To make this site production-ready, simply delete <code>base.css</code>, <code>wireframe.css</code>, and <code>&lt;div class="annotations"&gt;</code> at the bottom of each page, and you're ready to make the pretty.</p>
+			<p>You're right in your assumption that <a href="http://nickd.org">nickd</a> is responsible for all this &ndash; and yes, <a href="http://www.youtube.com/watch?v=FAs2duUJpAk">he likes Autechre</a>.</p>
+		</div>
+		<div class="eight columns">
+			<h3>My Approach</h3>
+			<p>Like Skeleton, Yulquen does not have fluid grids, but it does have three breakpoints down to mobile that should help in comping &ndash; making for a total of four different layout configurations, two of which reflow the columns.</p>
+			<p>YMMV, of course, but I've found a series of break points, along with a rigid grid, helps convince clients that responsive is less work, while still giving them some flexibility in the exact width. Right now this works well, but it isn't future-proof, and it's probably Yulquen's biggest blind spot.</p>
+			<p>I'd also like to build a Jekyll-friendly version of Yulquen, so it could afford easier templating. That's another thing I'd like to do in the future.</p>
+			<p>This is not the only way, but it is <em>my</em> way, and I'm happy to share my way with others. I'd love nothing more than for you to build off this, make it better, or go and do your own thing.</p>
+		</div>
+		
+		<div class="eight columns">
+			<h3>Styled Features</h3>
+			<ul class="square">
+				<li><strong>Error states.</strong> I've included a few common alert types:</li>
+			</ul>
+			
+			<div class="alert success">Yep! Awesome.</div>
+			<div class="alert error">Sorry, you looked at me funny.</div>
+			<div class="alert query">Man, I don't get it.</div>
+			
+			<ul class="square">
+				<li><strong>FPO images and lorem ipsum.</strong> For bumping content areas and creating callouts, I created a new div type, <code>.area</code>, of which <code>.area.fpo</code> and <code>.area.cta</code> are subsets, which should handle those kinds of content areas. I use these to gray out where images should appear. You can tweak their height as needed.</li>
+			</ul>
+			
+			<div class="area">Here's what <code>.area</code> looks like.</div>
+			<div class="area fpo">Here's what <code>.area.fpo</code> looks like.</div>
+			<div class="area cta"><a href="#">Here's what <code>.area.cta</code> looks like.</a></div>
+			
+		</div>
+		<div class="eight columns">
+			<ul class="square">
+				<h3 class="spacer">Overall Tweaks</h3>
+				<li><strong>Form Elements.</strong> It extends the form elements used by Skeleton and adds in some additional functionality for right-aligned side labels and autocomplete aspects.</li>
+				<li><strong>Spacers.</strong> Sometimes you want to let content breathe on desktop layouts. Add <code>.spacer</code> to any element, and it'll disappear in the single-column layout.</li>
+				<li><strong>Annotations.</strong><sup class="annotation"><a href="#anno1">1</a></sup> A wireframe would be useless without a thoughtful description of the way it works &ndash; otherwise, it's just an ugly picture. Annotations are typically placed in context, and for that we have <code>&lt;sup class="annotation"&gt;</code>, but we think that intrudes too much in the interface proper, so use it with caution.</li>
+				<li><strong>Gets out of the way.</strong> All of the custom styling that makes a wireframe nice is in one stylesheet, while all of the layout and behavior is in another. You can strip all of the pretty out and hand it off to a CSS developer or visual designer (your designer <em>can</em> speak in code and collaborate meaningfully with developers, <em>right?</em>) without many problems.</li>
+			</ul>
+		</div>
+		
+		<footer class="sixteen columns"><hr />&copy; 2012 Blah Blah Industries, Ltd. All rights reserved. <a href="#">Contact</a> &middot; <a href="#">Terms &amp; Conditions</a><sup class="annotation"><a href="#anno1">2</a></sup></footer>
+	</div>
+	
+	<div class="annotations">
+		<h2>0.1 Home Page</h2>
+		<p>This describes the home page.</p>
+		<ol>
+			<li><a name="anno1"></a>
+				<h3>An example annotation.</h3>
+				<p>That's what <code>&lt;sup class="annotation"&gt;</code> looks like in context. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi id quam euismod sagittis. Integer in sapien lectus. Phasellus quis magna velit, quis rhoncus ipsum. Nulla ut lorem orci, in ornare mi.</p>
+			</li>
+			<li><a name="anno2"></a>
+				<h3>Another example annotation.</h3>
+				<p>That's what <code>&lt;sup class="annotation"&gt;</code> looks like in context. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi id quam euismod sagittis. Integer in sapien lectus. Phasellus quis magna velit, quis rhoncus ipsum. Nulla ut lorem orci, in ornare mi.</p>
+			</li>
+		</ol>
+	</div>
+</body>
+</html>
