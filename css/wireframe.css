@@ -75,3 +75,13 @@ sup.annotation a:hover {
 .annotations ol p {
 	font-size: 1em;
 }
+
+/* forms */
+@media only screen and (min-width: 767px) {
+	form.align_right label {
+		text-align: right;
+	}
+}
+.req {
+	color: #c00;
+}
