@@ -254,7 +254,7 @@ legend span {
 	font-weight: bold;
 }
 .alert.error:before {
-	content: "\2716\A0\A0";
+	content: "\2718\A0\A0";
 }
 .alert.query:before {
 	content: "\203D\A0\A0";
