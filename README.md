@@ -32,8 +32,11 @@ Read more at [Yulquen's official site](http://nickd.org/yulquen/). [Share your u
 ## Future tweaks
 
 - Jekyll integration
-- Official site
 - Better looking forms
 - Right-aligned, responsive side labels
 - Site map page
 - Data model page
+
+## License
+
+Yulquen is licensed under [WTFPL version 2](http://sam.zoy.org/wtfpl/).
