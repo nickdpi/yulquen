@@ -20,7 +20,8 @@ body {
 }
 img.scale-with-grid {
 	max-width: 100%;
-	height: auto; }
+	height: auto;
+}
 
 /* areas */
 .area {
@@ -49,6 +50,7 @@ sup.annotation {
 	margin: 0 0.5em;
 	padding: 0.5em;
 	border-radius: 0.25em;
+	font-size: 10px;
 }
 sup.annotation a {
 	color: #fff;
