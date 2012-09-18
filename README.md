@@ -39,4 +39,4 @@ Read more at [Yulquen's official site](http://nickd.org/yulquen/). [Share your u
 
 ## License
 
-Yulquen is licensed under [WTFPL version 2](http://sam.zoy.org/wtfpl/).
+Yulquen is licensed under [WTFPL version 2](http://sam.zoy.org/wtfpl/), except for Skeleton's CSS files, which are slightly modified and licensed under the [MIT license](http://opensource.org/licenses/mit-license.php), and you should probably respect that.
