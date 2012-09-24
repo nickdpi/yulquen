@@ -7,7 +7,7 @@ Yulquen is a hack of [Skeleton](http://www.getskeleton.com), a responsive CSS fr
 
 - You have __passing fluency in writing HTML and CSS__. Yulquen deliberately doesn't contain JavaScript, so you can use whatever library you want.
 - You are okay either with __Skeleton being your production framework__, or with rewriting the HTML and CSS later. Yulquen is meant to remove the pain of rewriting the same layout and behavior in code, so the latter seems a bit disingenuous.
-- You are okay with the whole thing being a __static site__, with no templating functionality included. A Yulquen for [Jekyll](http://jekyllrb.com) is in the works.
+- You are okay with the whole thing being a __static site__, with no templating functionality included. A Yulquen for [Jekyll](http://jekyllrb.com) is [available](https://github.com/nickdpi/Yulquen-Jekyll).
 
 ## How to Use
 
@@ -31,7 +31,6 @@ Read more at [Yulquen's official site](http://nickd.org/yulquen/). [Share your u
 
 ## Future tweaks
 
-- Jekyll integration
 - Better looking forms
 - Right-aligned, responsive side labels
 - Site map page
